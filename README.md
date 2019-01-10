@@ -1,6 +1,6 @@
 ## Openload Downloader 
 
-A python script which generates the download link for openload and it's other domains.
+A python script which generates the download link for openload and it's other domains using selenium automation.
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ pip install selenium
 > python main.py
 
 
-📝 *Please note pip installable python package will be avialable soon after further testing.*
+📝 *Please note don't run multiple instances of the script since there is a chance for blocking your IP.*
 
 
 
