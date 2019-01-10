@@ -23,7 +23,7 @@ Download: (https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64
 
 Extract the file any path and configure the same path in main.py as:
 
- driver = webdriver.Chrome(executable_path="/path/to/chromedriver")
+driver = webdriver.Chrome(executable_path="/path/to/chromedriver")
 ```
 
 >For Mac
