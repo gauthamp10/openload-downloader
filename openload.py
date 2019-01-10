@@ -1,5 +1,4 @@
 from colorama import Fore,Back,Style
-from pyvirtualdisplay import Display
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
@@ -45,15 +44,15 @@ def main():
 
  def find_id(url):                                             #to resove url using selenium
   print("Wait Please............")
-  display = Display(visible=0, size=(800, 600))
-  display.start()
-  driver = webdriver.Chrome(executable_path="/Library/Application/chromedriver")
+
+  driver = webdriver.Chrome()
+  driver.set_window_position(-3000, 0) 
   driver.get(open_url)
   data=driver.page_source
   soup=BeautifulSoup(data,'html.parser')
   stream=soup.find('p',attrs={'id':['DtsBlkVFQx']})
   driver.close()
-  display.stop()
+  
   return stream.text
 
  screen_clear()
