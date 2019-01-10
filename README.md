@@ -55,10 +55,6 @@ pip install selenium
 📝 *Please note pip installable python package will be avialable soon after further testing.*
 
 
-###### Output
-
-![Screenshot](https://raw.githubusercontent.com/gauthamp10/openload-downloader/master/screenie/out.png)
-
 
 ### Author
 
