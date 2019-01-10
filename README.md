@@ -8,6 +8,18 @@ A python script which generates the download link for openload and it's other do
 
 ### Dependencies
 
+Install the following three python modules before executing wikipedia_info_scraper
+- colorama
+- beautifulsoup4
+- selenium
+
+```
+pip install colorama
+
+pip install beautifulsoup4
+
+pip install selenium
+```
 >For Windows
 ```
 Chrome dirver for selenium windows
@@ -35,19 +47,6 @@ Extract the file to /usr/local/bin
 
 ```
 
-
-Install the following three python modules before executing wikipedia_info_scraper
-- colorama
-- beautifulsoup4
-- selenium
-
-```
-pip install colorama
-
-pip install beautifulsoup4
-
-pip install selenium
-```
 ### Usage
 
 > python main.py
