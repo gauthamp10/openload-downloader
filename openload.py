@@ -9,19 +9,19 @@ import re
 def main():
 
  def intro():
-  print(Fore.CYAN+Style.BRIGHT+"\t\t\t\t\t------------------------------Openload Downloader------------------------------")
+  print((Fore.CYAN+Style.BRIGHT+"\t\t\t\t\t------------------------------Openload Downloader------------------------------"))
   box_msg(''' Created by Gautham Prakash   @: gauthamp10@gmail.com''')
-  print(Style.RESET_ALL)
+  print((Style.RESET_ALL))
 
  def print_lines():                                             #printing dotted lines
-  print(Style.BRIGHT+Fore.GREEN+"-"*168)
-  print(Style.RESET_ALL)
+  print((Style.BRIGHT+Fore.GREEN+"-"*168))
+  print((Style.RESET_ALL))
 
  def new_line():
-  print "\n"
+  print("\n")
 
  def box_msg(msg):                                              #for printing text in a box
-  print(Style.BRIGHT+Back.GREEN+Fore.WHITE)
+  print((Style.BRIGHT+Back.GREEN+Fore.WHITE))
   row = len(msg)
   h = ''.join(['+'] + ['-' *row] + ['+'])
   result= h + '\n'"|"+msg+"|"'\n' + h
@@ -29,7 +29,7 @@ def main():
 
 
  def box_msg2(msg):                                              #for printing text in a box2
-  print(Style.BRIGHT+Fore.WHITE)
+  print((Style.BRIGHT+Fore.WHITE))
   row = len(msg)
   h = ''.join(['+'] + ['~' *row] + ['+'])
   result= h + '\n'"|"+msg+"|"'\n' + h
@@ -43,10 +43,8 @@ def main():
    os.system('clear')
 
 
-
-
  def find_id(url):                                             #to resove url using selenium
-  print "Wait Please............"
+  print("Wait Please............")
   display = Display(visible=0, size=(800, 600))
   display.start()
   driver = webdriver.Chrome(executable_path="/Library/Application/chromedriver")
@@ -60,8 +58,8 @@ def main():
 
  screen_clear()
  intro()
- open_url=raw_input(Style.BRIGHT+Fore.CYAN+"Enter Openload link: ")
- print(Style.RESET_ALL)												
+ open_url=input(Style.BRIGHT+Fore.CYAN+"Enter Openload link: ")
+ print((Style.RESET_ALL))												
  start = time.time()
  try:                                                                      #check whther input is a valid URl
   urls = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', open_url)
@@ -70,20 +68,18 @@ def main():
    url='https://openload.co/stream/'+id
    box_msg2('''Download Link: '''+url)
    new_line()
-   print 'It took', time.time()-start, 'seconds.'
+   print('It took', time.time()-start, 'seconds.')
    new_line()
   else:
-   print "Entered string was not a url!!"
+   print("Entered string was not a url!!")
  except:
-  print "Invalid URL.Please Retry with a valid openload url!.."
-
+  print("Invalid URL.Please Retry with a valid openload url!..")
 
 
 
 if __name__ == '__main__':                                       #Calling main(), the actual entry point for the scraper
     main()  
     exit(0) 
-
 
 
 
