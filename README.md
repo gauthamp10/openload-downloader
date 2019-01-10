@@ -22,8 +22,8 @@ pip install selenium
 ```
 >For Windows
 ```
-Chrome dirver for selenium windows
-Download: (https://chromedriver.storage.googleapis.com/2.45/chromedriver_win32.zip)
+Chrome driver for selenium windows
+Download:[chromedriver_win32.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_win32.zip)
 
 Extract the file content to C:/Windows
 ```
