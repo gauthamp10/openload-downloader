@@ -25,16 +25,16 @@ pip install selenium
 
 #### Windows
 
-1.Chrome driver for selenium windows
+ 1.Chrome driver for selenium windows
 
-Download:[chromedriver_win32.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_win32.zip)
+ Download:[chromedriver_win32.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_win32.zip)
 
-2.Extract the file content to C:/Windows
+ 2.Extract the file content to C:/Windows
 
 
 #### Linux
 
-1. Chrome dirver for selenium linux
+ 1. Chrome dirver for selenium linux
  
  Download: [chromedriver_linux64.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip)
  
@@ -46,11 +46,11 @@ Download:[chromedriver_win32.zip](https://chromedriver.storage.googleapis.com/2.
 
 #### Mac
 
-1.Chrome dirver for selenium mac
+ 1.Chrome dirver for selenium mac
 
-Download: [chromedriver_mac64.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_mac64.zip)
+ Download: [chromedriver_mac64.zip](https://chromedriver.storage.googleapis.com/2.45/chromedriver_mac64.zip)
 
-2.Extract the file to /usr/local/bin
+ 2.Extract the file to /usr/local/bin
 
 
 ### Usage
